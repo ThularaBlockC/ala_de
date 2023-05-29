@@ -1,0 +1,71 @@
+.title {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px 0px;
+  margin: 10px 100px;
+  border-width: 1rem;
+  background: rgb(252, 252, 252);
+  box-shadow: 5px 5px 10px rgba(87, 137, 212, 0.2),
+    -5px -5px 10px rgba(254, 254, 254, 0.208);
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+@media (max-width: 1200px) {
+  .card {
+    flex-direction: column;
+    margin: 10px 20px;
+  }
+}
+
+.footer {
+  bottom: 0;
+  gap: 3rem;
+  color: rgb(134, 135, 136);
+  text-align: center;
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px 2px;
+    border-radius: 50%;
+  }
+  .fa-facebook {
+    background: #3b5998;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+}
+
+.heading {
+  display: grid;
+  justify-content: center;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fcfafa;
+  background-color: #163152;
+  align-items: center;
+  text-align: center;
+  .tagline-card {
+    display: flexbox;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    color: #fcfafa;
+  }
+}

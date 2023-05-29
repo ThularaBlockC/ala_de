@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "type" : "Single storey house"
+    },
+    {
+        "id": 2,
+        "type": "Double storey house"
+    },
+    {
+        "id": 3,
+        "type": "Triple story house"
+    },
+    {
+        "id": 4,
+        "type": "Apartment with elevator"
+    },
+    {
+        "id": 5,
+        "type": "Apartment without elevator(1st floor)"
+    },
+    {
+        "id": 6,
+        "type":"Apartment without elevator(2nd floor)"
+    },
+    {
+        "id": 7,
+        "type": "Apartment without elevator(3rd+ floor)"
+    }
+]
